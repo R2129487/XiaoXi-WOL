@@ -1,0 +1,23 @@
+# ESP-IDF build
+firmware/build/
+firmware/sdkconfig
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PCB
+hardware/pcb/*.bak
+hardware/pcb/backup/
